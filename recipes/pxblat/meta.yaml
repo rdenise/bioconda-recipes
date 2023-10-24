@@ -1,6 +1,6 @@
 {% set name = "PxBLAT" %}
-{% set version = "0.3.4" %}
-{% set sha256 = "59ff417a0ee2e6760cb96d653ffbff2d8d76e5f0e498b2a3915bfc578b276f06" %}
+{% set version = "0.3.10" %}
+{% set sha256 = "a3ff4c8684ef47a2d642a1c72f853b8722d601cc5f50bf38ce583b042a550a28" %}
 
 package:
   name: {{ name|lower }}
