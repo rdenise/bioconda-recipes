@@ -1,9 +1,5 @@
 {% set name = "taxmyphage" %}
-<<<<<<< HEAD
 {% set version = "0.1.9" %}
-=======
-{% set version = "0.1.5" %}
->>>>>>> 106500af09808d7110c893c7d2062e85abc5a9af
 
 package:
   name: {{ name|lower }}
@@ -11,11 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/taxmyphage-{{ version }}.tar.gz
-<<<<<<< HEAD
   sha256: 631a1557cd4ca134668d05bca689dc8ab2eb893e2a04d38f94b30813dede2c93
-=======
-  sha256: 48b85651ab0692eb935ed82fa546358e54eddbd30a97b15850eb5af87b041373
->>>>>>> 106500af09808d7110c893c7d2062e85abc5a9af
 
 build:
   entry_points:
